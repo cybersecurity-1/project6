@@ -28,20 +28,8 @@
     font-size:15px;
 
 }
-.king{
-    /* position: relative; */
-    
-}
 
-.icn1t{
-   
-    /* position: absolute;  
-     top: 30%;   */
-    /* left: 50%;
-    transform: translateX(-50%); */
-    
-    
-} 
+
 .first{
     float: left;
 }
@@ -53,7 +41,7 @@ margin-top: 13px;
 /* .li1{
     text-decoration: none;
     color: black;
-}
+} */
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -72,7 +60,15 @@ nav ul li{
 nav ul li a{
     font-size: 17px;
     text-transform: uppercase;
-} */
+}
+
+.menu1{
+   padding-left: 500px;
+}
+.inbox3{
+    width: 600px;
+    margin-left: 70px;
+}
 /* .............................................................. */
 .logo1{
     text-decoration: none;
@@ -84,19 +80,133 @@ nav ul li a{
     margin: 0px 7px;
     font-size: 17px;
 }
+.dphone{
+    text-align: right;
+}
+/* .be{
+    padding-left: 60px;
+} */
+
 /* ....................................four.............................. */
 .oo{
-    text-align: justify;
+    text-align: justify; 
+}
+.inbox4{
+    width: 450px;
+    padding-left: 30px;
+}
+.p1{
+  font-size: 17px;
+  line-height: 30px;
+  padding-right: 50px;
 }
 .ifram0{
-    text-align: end;
+    text-align: right;
 }
+.p2{
+    font-size: 16px;
+}
+.p2-link{
+    text-decoration: none;
+    color:rgb(231, 38, 3);
+}
+
+/* .........................................five........................................... */
+.inbox5-1{
+    margin: 35px;
+}
+.button1{
+    width: 220px;
+    height: 70px;
+    background-color: rgb(241, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fivth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.second-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.thrid-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.con-51{
+    max-width: 900px;
+}
+.inbox511{
+margin: 40px 0px;
+}
+.inbox512{
+    margin: 40px 0px;
+}
+.inbox513{
+    margin: 40px 0px;
+
+}
+
+/* ............................................................................... */
+.ult1{
+    
+}
+.li1{
+    display:inline;
+    margin-right:30px;
+}
+
+.li11:before {
+     content: "\2022"; /* Unicode character for a bullet point  */
+    color: #000; /* Adjust color as needed */
+    margin-right: 5px; /* Adjust as needed */
+  }
 @media screen and (max-width: 450px) {
     /* CSS styles for devices with a screen width of 600 pixels or less */
     .ifram{
        width: 300px;
        height: 250px;
-       text-align: center;
-       margin:0px 50px;
-    }
+       /* margin:0px 50px; */
+    
+        }
+        .ifram0{
+            text-align: center;
+        }
+        .two{
+            margin-top: 6px;
+        }
+        .dphone{
+            text-align: center;
+        }
+        .inbox3{
+            width: 100%;
+            margin-left: 0px;
+            text-align: center;
+        }
+        .inbox4{
+            width: 100%;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 40px;
+        }
+        .p1{
+            padding-right: 0px;
+        }
+        .menu1{
+            padding-left: 0px;
+         }
+         nav ul{
+            float: left ;
+            margin-right: 40px;
+        }
   }
